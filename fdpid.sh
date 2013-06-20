@@ -94,7 +94,7 @@ done
 
 if [ $# -ne 2 ]
 then
-    # PID parameter missing or too many parameters
+    # FD/PID parameters missing or too many parameters
     usage $ex_usage
 fi
 

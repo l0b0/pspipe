@@ -66,7 +66,7 @@ then
 fi
 
 # Process parameters
-params="$(getopt -o f:hrv -l fds:,help,recursive,verbose --name "$0" -- "$@")" || usage $ex_usage
+params="$(getopt -o hv -l help,verbose --name "$0" -- "$@")" || usage $ex_usage
 
 eval set -- "$params"
 unset params
